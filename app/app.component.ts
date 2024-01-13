@@ -31,6 +31,7 @@ cities:{[key:string]:string[]}={
   canada: ['Toronto', 'Vancouver', 'Montreal'],
   uk: ['London', 'Manchester', 'Birmingham'],
 }
+
   getCitiesByCountry(country: string): string[]{
     return this.cities[country] || [];
   }
@@ -47,6 +48,9 @@ onSubmit(myForm: NgForm){
     alert('Please fill up the fields');
   }
 }
+
+
+
 
 
 
